@@ -1,7 +1,7 @@
 ---
 cmd: po
 args:
-  - photon
+  - pi
   - build
 sh: false
 
@@ -10,7 +10,7 @@ targets:
     atomCommandName: po:Build Particle Firmware Locally
     sh: false
     args:
-      - photon
+      - pi
       - build
     cmd: po
     keymap: ctrl-alt-1
@@ -19,7 +19,7 @@ targets:
     atomCommandName: po:Flash Particle Firmware Locally
     sh: false
     args:
-      - photon
+      - pi
       - flash
     cmd: po
     keymap: ctrl-alt-2
@@ -28,7 +28,7 @@ targets:
     atomCommandName: po:Clean Particle Firmware Locally
     sh: false
     args:
-      - photon
+      - pi
       - clean
     cmd: po
     keymap: ctrl-alt-3
@@ -37,7 +37,7 @@ targets:
     atomCommandName: po:Upload Particle Firmware Locally with DFU
     sh: false
     args:
-      - photon
+      - pi
       - dfu
     cmd: po
     keymap: ctrl-alt-4
@@ -46,7 +46,7 @@ targets:
     atomCommandName: po:Upload Particle Firmware Locally with OTA
     sh: false
     args:
-      - photon
+      - pi
       - ota
       - --multi
     cmd: po
